@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:100% ;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #303030;
+}
+.logo{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century Gothic;
+    font-size: 40px;
+}
+.logo h3{
+    color: #fff;
+}
+.navbar{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 21px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;;
+    font-family: Century Gothic;
+    font-size: 21px;
+}

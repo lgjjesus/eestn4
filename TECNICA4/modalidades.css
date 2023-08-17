@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #303030;
+}
+.logo{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century Gothic;
+    font-size: 40px;
+}
+.animacion{ 
+    color: rgb(0, 0, 80);
+}
+.logo h3{
+    color: #fff;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.navbar{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 21px;
+}
+.navbar a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Century Gothic;
+}
+.contenedores{
+    width: 100%;
+    height: 567px;
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.6644),
+        rgba(0,0,0,0.6644)
+    ),
+    url(EESTN4GARÍN-Frente02.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor-etiqueta{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contenedor-etiqueta2{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.Informatica{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contabilidad{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.electronica{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Turismo{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 50px;
+    background-color: #303030;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #454545;
+    cursor: pointer;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.active a{
+    font-size: 18px;
+    border-bottom: 2px solid rgb(0, 0,255);
+}

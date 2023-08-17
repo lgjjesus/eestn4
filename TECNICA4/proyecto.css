@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:100% ;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #303030;
+}
+.logo{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.logo h3{
+    color: #fff;
+    font-family: Century Gothic;
+}
+.navbar{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 21px;
+}
+.navbar a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Open Sans';
+    font-size: 21px;
+
+}
+.active a{
+    font-size: 18px;
+    border-bottom: 2px solid rgb(0, 0,255);
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.animacion{
+    color: rgb(0, 0, 80);
+}
+.contenedor{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartas{
+    width: 800px;
+    padding: 30px;
+}
+.titulo{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carta img{
+    height: 300px;
+    width: 300px;
+}
+section{
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.664),
+        rgba(0,0,0,0.664)
+    ), url(EESTN4GARÍN-Frente02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titulo1{
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.623),
+        rgba(0, 0, 0, 0.623)
+    ),url(IMG-20230710-WA0014.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.carta1 h3{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Open Sans';
+}
+.info{
+    height: auto;
+    width: 100%;
+    background-color: #ededed;
+}
+.carta1 p{
+    max-width: 700px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.carta2{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carta2 h3{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Open Sans';
+}
+.carta2 .titulo2{
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.623),
+        rgba(0, 0, 0, 0.623)
+    ),url(IMG-20230511-WA0004.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carta2 p{
+    max-width: 700px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.info2{
+    width: 100%;
+    background-color: #ededed;
+}
+.carta2{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carta2 h3{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Open Sans';
+}
+.carta3 .titulo3{
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.623),
+        rgba(0, 0, 0, 0.623)
+    ),url(desarrollo-web.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carta3 p{
+    max-width: 700px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.info3{
+    width: 100%;
+    background-color: #ededed;
+}
+.titulo3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo3 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+}
